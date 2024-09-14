@@ -2,20 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio3_6 : MonoBehaviour
+public class Ejercicio4_4 : MonoBehaviour
 {
-    [SerializeField] float velocidadkm;
-    float velocidadms;
     // Start is called before the first frame update
     void Start()
     {
-        velocidadms = velocidadkm / 3.6f;
-        Debug.Log("velocidad en m/s= " + velocidadms);
+        float conversion = ConversorKmH(20.3f);
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+    float ConversorKmH(float velocidad) 
+    {
+        float velocidadms = velocidad / 3.6f;
+        return velocidadms;
     }
 }
