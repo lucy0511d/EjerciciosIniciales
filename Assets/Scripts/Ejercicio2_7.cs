@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Ejercicio2_7 : MonoBehaviour
 {
-    string player = "minero";
-    int oroPorSeg = 7, cantidadDeOro, oroRecogidoEn4H;
+    
+    int oroPorSeg = 7, oroRecogidoEn4H;
     // Start is called before the first frame update
     void Start()
     {
-        cantidadDeOro += oroPorSeg;
+        oroRecogidoEn4H += ((oroPorSeg * 60) * 60) * 4;
     }
 
     // Update is called once per frame
