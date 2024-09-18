@@ -2,15 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio5_8 : MonoBehaviour
+public class Ejercicio7_1 : MonoBehaviour
 {
-    [SerializeField] int H, M, S;
+    int numero = 0;
     // Start is called before the first frame update
-    void Start() //preguntar al profe
+    void Start()
     {
-        if (H < 24 && M < 59 && S < 59)
+        while (numero >= 1 && numero < 100)
         {
-            Debug.Log(H + ":" + M + ":" +  S);
+            Debug.Log("Tu número es: " + numero);
+            numero++;
         }
     }
 

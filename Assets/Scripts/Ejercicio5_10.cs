@@ -20,7 +20,7 @@ public class Ejercicio5_10 : MonoBehaviour
         {
             Debug.Log("Clima caluroso");
         }
-        else if (temperatura > 30)
+        else 
         {
             Debug.Log("Clima tropical");
         }
