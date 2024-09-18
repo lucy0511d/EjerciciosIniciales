@@ -6,7 +6,7 @@ public class Ejercicio5_10 : MonoBehaviour
 {
     [SerializeField] int temperatura;
     // Start is called before the first frame update
-    void Start() //preguntar else if else
+    void Start() 
     {
         if (temperatura <= 10)
         {
