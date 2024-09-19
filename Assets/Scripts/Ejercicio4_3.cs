@@ -8,6 +8,7 @@ public class Ejercicio4_3 : MonoBehaviour
     void Start()
     {
         float conversor = Convertir(1.5f, "euro");
+        Debug.Log("Conversion=" + conversor);
     }
 
     // Update is called once per frame

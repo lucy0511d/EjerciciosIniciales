@@ -8,6 +8,7 @@ public class Ejercicio4_4 : MonoBehaviour
     void Start()
     {
         float conversion = ConversorKmH(20.3f);
+        Debug.Log("Conversion a metros/s " + conversion);
     }
 
     // Update is called once per frame

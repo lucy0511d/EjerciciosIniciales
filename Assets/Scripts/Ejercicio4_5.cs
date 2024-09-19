@@ -10,7 +10,9 @@ public class Ejercicio4_5 : MonoBehaviour
         float areaCirculo = Circulo(4, 3);
         float areaTriangulo = Triangulo(5, 6);
         float areaCuadrado = Cuadrado(4); // cantidad
-        float conversion = convertirCuadrado (areaCuadrado, "euro");
+        Debug.Log("area circulo= " + areaCirculo + " area triangulo= " + areaTriangulo + "area cuadrado= " + areaCuadrado);
+        float conversion = convertirCuadrado(areaCuadrado, "euro");
+        Debug.Log("Conversion del area de cuadrado a una cantidad de monedas= " + conversion + "euros");
     }
 
     // Update is called once per frame

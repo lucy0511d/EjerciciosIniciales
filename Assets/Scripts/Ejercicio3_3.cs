@@ -10,7 +10,7 @@ public class Ejercicio3_3 : MonoBehaviour
     void Start()
     {
         numero2 = numero1 * 2;
-        numero3 = numero2 * 3;
+        numero3 = numero1 * 3;
         Debug.Log("numero2= " + numero2 + ", numero3= " + numero3);
     }
 
