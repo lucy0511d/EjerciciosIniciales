@@ -6,7 +6,7 @@ public class Ejercicio7_8 : MonoBehaviour
 {
     [SerializeField] int num, num2;
     // Start is called before the first frame update
-    void Start()//preguntar
+    void Start()//meter else
     {
         if (num % 2 == 0)
         {

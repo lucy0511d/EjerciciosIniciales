@@ -6,7 +6,7 @@ public class Ejercicio7_7 : MonoBehaviour
 {
     [SerializeField] int num, num2;
     // Start is called before the first frame update
-    void Start()//preguntar
+    void Start()//lo he hecho de menor a mayor y de mayor a menor
     {
         if (num < num2)
         {

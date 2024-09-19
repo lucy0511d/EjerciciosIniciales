@@ -8,9 +8,12 @@ public class Ejercicio7_9 : MonoBehaviour
     // Start is called before the first frame update
     void Start()//preguntar
     {
-        for (int i = 1; i < num; i++)
+        if (num % 3 == 0)
         {
-
+            for (int i = num; i < num; i += 2)
+            {
+                Debug.Log("Tu número es: " + i);
+            }
         }
     }
 

@@ -7,7 +7,7 @@ public class Ejercicio7_6 : MonoBehaviour
     [SerializeField] int num;
     int num2;
     // Start is called before the first frame update
-    void Start() //preguntar
+    void Start() // -num version negativa num
     {
         while (num >= 1 && num <= num2)
         {
