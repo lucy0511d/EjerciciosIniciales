@@ -8,6 +8,7 @@ public class Ejercicio4_2 : MonoBehaviour
     void Start()
     {
         string nombreCompleto = ConstruirNombre("Lucia", "Gonzalez", "Rodriguez");
+        Debug.Log("Nombre Completo: " + nombreCompleto);
     }
 
     // Update is called once per frame
