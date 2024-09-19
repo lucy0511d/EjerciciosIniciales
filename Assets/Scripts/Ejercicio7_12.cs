@@ -15,4 +15,8 @@ public class Ejercicio7_12 : MonoBehaviour
     {
         
     }
+    void SumarTodosLosNumeros(int num1, int num2)
+    {
+
+    }
 }

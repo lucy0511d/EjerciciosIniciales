@@ -10,6 +10,7 @@ public class Ejercicio2_7 : MonoBehaviour
     void Start()
     {
         oroRecogidoEn4H += ((oroPorSeg * 60) * 60) * 4;
+        Debug.Log("Oro recogido en 4h = " + oroRecogidoEn4H);
     }
 
     // Update is called once per frame

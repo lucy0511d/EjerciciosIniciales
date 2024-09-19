@@ -9,6 +9,7 @@ public class Ejercicio2_4 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("Vidas= " + vidas);
         vidas += 77;
         Debug.Log("Vidas= " + vidas);
         vidas -= 3;

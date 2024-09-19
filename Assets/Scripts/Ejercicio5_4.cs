@@ -9,9 +9,10 @@ public class Ejercicio5_4 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (divisor != 0) 
+        if (divisor != 0)
         {
-            resultadoDivision = dividendo / divisor; 
+            resultadoDivision = dividendo / divisor;
+            Debug.Log("resultado divison= " + resultadoDivision);
         }
 
     }

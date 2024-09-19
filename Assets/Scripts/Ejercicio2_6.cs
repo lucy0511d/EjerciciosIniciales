@@ -11,7 +11,7 @@ public class Ejercicio2_6 : MonoBehaviour
     void Start()
     {
         resultadoMedia = (vida + pocion + armas) / 3;
-        Debug.Log(vida + " + " + pocion + " + " + armas + " / 3 = " + resultadoMedia);
+        Debug.Log("Media de= " + vida + " + " + pocion + " + " + armas + " = " + resultadoMedia);
     }
 
     // Update is called once per frame
