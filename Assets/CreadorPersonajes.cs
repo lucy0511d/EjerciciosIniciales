@@ -14,15 +14,15 @@ public class CreadorPersonajes : MonoBehaviour
     void Start()
     {
         //link's life
-        link.nombre = "Link";
-        link.vida = 100;
-        link.velocidad = 100;
+        //link.nombre = "Link";
+        //link.vida = 100;
+        //link.velocidad = 100;
 
         link.Mover(3, 1, 0);
         link.Saltar();
         link.Atacar();
 
-        transform.Rotate();
+        //transform.Rotate();
     }
 
 }

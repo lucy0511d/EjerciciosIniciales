@@ -8,13 +8,15 @@ public class Ejercicio7_8 : MonoBehaviour
     // Start is called before the first frame update
     void Start()//meter else
     {
-        if (num % 2 == 0)
+        for (int i = num; i < num2; i += 2)
         {
-            for (int i = num; i < num2; i+=2)
+            if (i % 2 == 0)
             {
-                Debug.Log("Tu número es: " + i);
+                Debug.Log("Número par: " + i);
             }
         }
+        
+        
         
     }
 

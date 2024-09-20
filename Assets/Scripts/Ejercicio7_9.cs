@@ -5,14 +5,19 @@ using UnityEngine;
 public class Ejercicio7_9 : MonoBehaviour
 {
     [SerializeField] int num;
+    
     // Start is called before the first frame update
-    void Start()//preguntar
+    void Start()
     {
-        if (num % 3 == 0)
+        for (int i = 1; i < num; i++)
         {
-            for (int i = num; i < num; i += 2)
+            if (i % 3 == 0)
             {
-                Debug.Log("Tu número es: " + i);
+                Debug.Log("El numero: " + i + " es múltiplo de 3");
+            }
+            else
+            {
+                Debug.Log("El numero: " + i + " no es múltiplo de 3");
             }
         }
     }

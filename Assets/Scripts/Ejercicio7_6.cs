@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class Ejercicio7_6 : MonoBehaviour
 {
-    [SerializeField] int num;
-    int num2;
+    [SerializeField] int numpos,numneg;
+    
     // Start is called before the first frame update
     void Start() // -num version negativa num
     {
-        while (num >= 1 && num <= num2)
+        while (numpos >= numneg)
         {
-            Debug.Log("Tu número es: " + num);
-            num++;
+            Debug.Log("Tu número es: " + numpos);
+            numpos--;
         }
-        for (int num2 = 1; num < num2; num++)
+        for (int i = numneg; numpos > 1; numpos--)
         {
-            Debug.Log("Tu número es: " + num);
+            Debug.Log("Tu número es: " + numpos);
         }
     }
 

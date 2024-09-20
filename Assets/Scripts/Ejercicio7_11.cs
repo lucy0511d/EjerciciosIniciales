@@ -12,7 +12,7 @@ public class Ejercicio7_11 : MonoBehaviour
         {
             int resultadoMult = i * 3;
             Debug.Log("Resultado: " + resultadoMult);
-            
+
         }
     }
 
