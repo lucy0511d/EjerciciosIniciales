@@ -1,0 +1,31 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PersonajeV2 : MonoBehaviour
+{
+    string nombre;
+    int vida;
+    int experiencia;
+    #region Getters and Setters
+    public string Nombre { get => nombre; set => nombre = value; }
+    public int Vida { get => vida; set => vida = value; }
+    #endregion
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        float nivel = CalcularNivel();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+    float CalcularNivel()
+    {
+        float nivel = experiencia / 1000;
+        return nivel;
+    }
+}

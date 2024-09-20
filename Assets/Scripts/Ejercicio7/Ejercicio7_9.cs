@@ -7,7 +7,7 @@ public class Ejercicio7_9 : MonoBehaviour
     [SerializeField] int num;
     
     // Start is called before the first frame update
-    void Start()
+    void Start()//preguntar como hacer que la primera i no se cuente
     {
         for (int i = 1; i < num; i++)
         {
