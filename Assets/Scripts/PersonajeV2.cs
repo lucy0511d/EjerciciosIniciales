@@ -7,15 +7,17 @@ public class PersonajeV2 : MonoBehaviour
     string nombre;
     int vida;
     int experiencia;
+    float nivel;
     #region Getters and Setters
     public string Nombre { get => nombre; set => nombre = value; }
     public int Vida { get => vida; set => vida = value; }
+    public float Nivel { get => nivel; set => nivel = value; }
     #endregion
 
     // Start is called before the first frame update
     void Start()
     {
-        float nivel = CalcularNivel();
+      nivel = CalcularNivel();
     }
 
     // Update is called once per frame
@@ -25,7 +27,7 @@ public class PersonajeV2 : MonoBehaviour
     }
     float CalcularNivel()
     {
-        float nivel = experiencia / 1000;
-        return nivel;
+        float resultadoNivel = experiencia / 1000;
+        return resultadoNivel;
     }
 }
