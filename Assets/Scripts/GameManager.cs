@@ -10,10 +10,11 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       if (Input.GetKey(KeyCode.Space))
-       {
+       if (Input.GetKey(KeyCode.Space)&& yaEjecutado == false)
+        {
             PrepararPersonajes();
-       }
+            yaEjecutado=true;
+        }
     }
 
     // Update is called once per frame
