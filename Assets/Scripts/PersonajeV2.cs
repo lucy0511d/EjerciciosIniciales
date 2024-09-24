@@ -8,7 +8,10 @@ public class PersonajeV2 : MonoBehaviour
     int vida;
     int experiencia;
     float nivel;
-    int enemigo;
+    string enemigo;
+    SistemaDeVida miSistemaDeVidas;
+    Arma miArma;
+    
     #region Getters and Setters
     public string Nombre { get => nombre; set => nombre = value; }
     public int Vida { get => vida; set => vida = value; }
