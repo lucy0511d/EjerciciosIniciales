@@ -8,9 +8,10 @@ public class PersonajeV2 : MonoBehaviour
     int vida;
     int experiencia;
     float nivel;
-    string enemigo;
-    SistemaDeVida miSistemaDeVidas;
-    Arma miArma;
+    bool miTurno = false;
+    [SerializeField] Personaje enemigo;
+    [SerializeField] SistemaDeVida miSistemaDeVidas;
+    [SerializeField] Arma miArma;
     
     #region Getters and Setters
     public string Nombre { get => nombre; set => nombre = value; }

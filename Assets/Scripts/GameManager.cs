@@ -33,4 +33,8 @@ public class GameManager : MonoBehaviour
         capsulan.Nombre = "Capsulan";
         Debug.Log("Funcijdeow");
     }
+    void FinDeTurno()
+    {
+
+    }
 }

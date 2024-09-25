@@ -132,6 +132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 263439961}
   - component: {fileID: 263439962}
+  - component: {fileID: 263439963}
   m_Layer: 0
   m_Name: Arma
   m_TagString: Untagged
@@ -206,6 +207,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &263439963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263439960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 313d94304f5fb494a8d972186dc5240c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  danhoMinimo: 0
+  danhoMaximo: 0
+  capacidadTotal: 0
+  automatica: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,6 +325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 727974316}
   - component: {fileID: 727974317}
+  - component: {fileID: 727974318}
   m_Layer: 0
   m_Name: Arma
   m_TagString: Untagged
@@ -382,6 +400,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &727974318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727974315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 313d94304f5fb494a8d972186dc5240c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  danhoMinimo: 0
+  danhoMaximo: 0
+  capacidadTotal: 0
+  automatica: 0
 --- !u!1 &777526437
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,6 +1265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1653572028}
   - component: {fileID: 1653572027}
+  - component: {fileID: 1653572029}
   m_Layer: 0
   m_Name: Capsulan
   m_TagString: Untagged
@@ -1306,6 +1341,21 @@ Transform:
   - {fileID: 727974316}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1653572029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653572026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad88dd2f5a97a1409fe897e900cda79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigo: {fileID: 0}
+  miSistemaDeVidas: {fileID: 0}
+  miArma: {fileID: 727974318}
 --- !u!1 &1743000044
 GameObject:
   m_ObjectHideFlags: 0
