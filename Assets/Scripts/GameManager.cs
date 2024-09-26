@@ -7,12 +7,15 @@ public class GameManager : MonoBehaviour
     [SerializeField]PersonajeV2 capsulin;
     [SerializeField]PersonajeV2 capsulan;
     bool yaEjecutado = false; 
+    // capsulan = enemigo
+    
     // Start is called before the first frame update
     void Start()
     {
-       if (Input.GetKey(KeyCode.Space)&& yaEjecutado == false)
+       if (Input.GetKeyDown(KeyCode.Space)&& yaEjecutado == false)
         {
             PrepararPersonajes();
+            
             yaEjecutado=true;
         }
     }
@@ -27,14 +30,14 @@ public class GameManager : MonoBehaviour
         //Capsulin
         capsulin.Vida = 50;
         capsulin.Nombre = "Capsulin";
-
+        
         //Capsulan
         capsulan.Vida = 70;
         capsulan.Nombre = "Capsulan";
         Debug.Log("Funcijdeow");
     }
-    void FinDeTurno()
+    void FinDeTurno(Personaje capsulan)
     {
-
+        Debug.Log("Se acabó el turno de: ");
     }
 }

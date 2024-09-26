@@ -18,7 +18,7 @@ public class SistemaDeVida : MonoBehaviour
     {
         
     }
-    float RecibirCura(float cantidad)
+    public float RecibirCura(float cantidad)
     { 
         if (cantidad > 0)
         {
