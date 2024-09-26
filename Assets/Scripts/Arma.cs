@@ -10,7 +10,7 @@ public class Arma : MonoBehaviour
     [SerializeField] bool automatica;
     int municionActual;
     // Start is called before the first frame update
-    void Start() //PREGUNTAR
+    void Start() //PREGUNTARR
     {
         capacidadTotal = municionActual;
     }
