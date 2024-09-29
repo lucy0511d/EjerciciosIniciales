@@ -25,7 +25,7 @@ public class Batalla : MonoBehaviour
     }
     void GenerarCombatientes()
     {
-
+        //player1.RellenarStats();
     }
     void CrearEmparejamiento()
     {

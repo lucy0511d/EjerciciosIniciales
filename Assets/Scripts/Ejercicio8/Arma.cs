@@ -20,19 +20,23 @@ public class Arma : MonoBehaviour
     {
         
     }
-    void UtilizarArma()
+    public void UtilizarArma()
     {
         if (municionActual > 0)
         {
             municionActual--;
+            
+            Debug.Log("0");
         }
         else if (municionActual == 0) 
         {
-            Debug.Log("0");
+            Debug.Log("-1");
+            Debug.Log("Reload!!!");
+
         }
         
     }
-    void RecargarArma()
+    public void RecargarArma()
     { 
        if (municionActual != capacidadTotal) 
        {
@@ -42,6 +46,7 @@ public class Arma : MonoBehaviour
        else
        {
             Debug.Log("-1");
-       }
+            Debug.Log("Arma ya cargada");
+        }
     }
 }

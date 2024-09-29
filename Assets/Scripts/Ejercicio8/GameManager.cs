@@ -5,9 +5,9 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField]PersonajeV2 capsulin;
-    [SerializeField]PersonajeV2 capsulan;
+    [SerializeField]PersonajeV2 enemigo;
     bool yaEjecutado = false; 
-    // capsulan = enemigo
+    
     
     // Start is called before the first frame update
     void Start()
@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
             
             yaEjecutado=true;
         }
+
     }
 
     // Update is called once per frame
@@ -30,14 +31,19 @@ public class GameManager : MonoBehaviour
         //Capsulin
         capsulin.Vida = 50;
         capsulin.Nombre = "Capsulin";
-        
-        //Capsulan
-        capsulan.Vida = 70;
-        capsulan.Nombre = "Capsulan";
-        Debug.Log("Funcijdeow");
+        capsulin.CalcularNivel();
+        //Enemigo
+        enemigo.Vida = 70;
+        enemigo.Nombre = "Capsulan";
+        enemigo.CalcularNivel();
+       
     }
-    void FinDeTurno(Personaje capsulan)
+    void FinDeTurno(PersonajeV2 capsulin)
     {
+       // if (PersonajeV2 capsulin)
+       // {
+       //     capsulin.miTurno(); = false;
+       // }
         Debug.Log("Se acabó el turno de: ");
     }
 }

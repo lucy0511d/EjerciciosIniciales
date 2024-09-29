@@ -9,6 +9,7 @@ public class SistemaDeVida : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        vidaActual = vidaInicial;
         float curitas = RecibirCura(3);
         float danhito = RecibirDanho(0);
     }
@@ -31,7 +32,7 @@ public class SistemaDeVida : MonoBehaviour
         }
         return cantidad; 
     }
-    float RecibirDanho(float danho)
+    public float RecibirDanho(float danho)
     {
         vidaActual += danho;
         if (vidaActual > 0)
